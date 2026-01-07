@@ -93,10 +93,12 @@ The project uses a **structured relational model** consisting of:
 
 
 ### 📌 KPI & Metrics View
-![KPI View](screenshots/kpi_view.png)
+<img width="1288" height="704" alt="image" src="https://github.com/user-attachments/assets/88c0d5f0-2ea3-44fe-b32b-34ffb9381476" />
+
 
 ### 📌 Detailed Analysis Page
-![Detailed Analysis](screenshots/detailed_analysis.png)
+<img width="1308" height="723" alt="image" src="https://github.com/user-attachments/assets/18962e2d-87bd-4cc7-99a9-186d59dc421a" />
+
 
 ---
 
