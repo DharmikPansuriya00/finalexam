@@ -89,7 +89,8 @@ The project uses a **structured relational model** consisting of:
 > *(Replace image paths with actual screenshots from your Power BI report)*
 
 ### 📌 Dashboard Overview
-![Dashboard Overview](screenshots/dashboard_overview.png)
+<img width="1307" height="731" alt="image" src="https://github.com/user-attachments/assets/0d164cc6-a196-4e5f-9818-99bf629ac9f5" />
+
 
 ### 📌 KPI & Metrics View
 ![KPI View](screenshots/kpi_view.png)
