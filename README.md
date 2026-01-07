@@ -1,24 +1,6 @@
 # 📊 Student Performance Dashboard – Academic & Behavioral Insights
 
-An interactive **Power BI** dashboard that analyzes students’ academic performance, attendance, and behavior across different grades, subjects, and terms. Designed as an exam-style end‑to‑end BI project to demonstrate real‑world data modeling, DAX, and storytelling skills.
 
-> Total Duration: 2.5–3 hours  
-> Total Marks: 50
-
----
-
-## 🧾 Evaluation Criteria
-
-| Component                         | Marks |
-|-----------------------------------|-------|
-| Data Modeling & Cleaning          | 10    |
-| DAX Calculations                  | 10    |
-| Visualizations & Storytelling     | 15    |
-| Slicers, Filters & Drillthrough   | 10    |
-| Optional Features                 | 5     |
-| **Total**                         | **50** |
-
----
 
 ## 📂 Dataset
 
