@@ -1,63 +1,148 @@
-# 📊 Student Performance Dashboard – Academic & Behavioral Insights
+# 📊 Power BI Analytics Dashboard – Final Exam Project
 
+![Power BI](https://img.shields.io/badge/Tool-Power%20BI-yellow)
+![Status](https://img.shields.io/badge/Status-Completed-success)
+![Level](https://img.shields.io/badge/Level-Academic%20%7C%20Intermediate-blue)
 
-
-## 📂 Dataset
-
-The project uses four related CSV files:
-
-1. `Students.csv` – StudentID, Name, Gender, Class, Section  
-2. `Scores.csv` – StudentID, Subject, ExamType, Score, MaxScore, Term  
-3. `Attendance.csv` – StudentID, Date, Status (Present/Absent), Reason  
-4. `Behavior.csv` – StudentID, Date, BehaviorType, Notes  
-
-These files are modeled in a star‑schema–like structure with `Students` as the central dimension table.
+> **An end-to-end Power BI project demonstrating data modeling, DAX expertise, and interactive dashboard design.**
 
 ---
 
-## 🏗️ Data Modeling & Cleaning
+## 🚀 Project Overview
 
-Key modeling steps:
+This Power BI project is designed to **analyze, visualize, and present business insights** using a well-structured data model and interactive dashboards.  
+The project focuses on **real-world analytics practices**, ensuring clarity, performance, and decision-ready insights.
 
-- Established relationships between Students, Scores, Attendance, and Behavior using `StudentID`.
-- Cleaned missing or inconsistent values (e.g., attendance status, behavior notes, score outliers).
-- Created calculated columns for:
-  - Percentage Score per exam.
-  - Term/Year extraction from date fields.
-- Ensured proper data types (Date, Text, Whole Number, Decimal) for accurate aggregations.
+🔹 Built as part of a **final examination / academic evaluation**  
+🔹 Follows **industry-standard Power BI best practices**  
+🔹 Fully optimized for **usability, storytelling, and performance**
 
 ---
 
-## 🧮 DAX Measures
+## 🎯 Objectives
 
-Core DAX measures implemented:
-
-- **Total Students** – distinct count of students.
-- **Average Score** – average percentage across subjects/terms.
-- **Average Attendance %** – ratio of Present vs total days.
-- **Exam-wise KPIs** – max, min, and average score by ExamType.
-- **Behavior Metrics** – count of incidents by BehaviorType and severity (if applicable).
-
-These measures power the visuals and enable drilldowns by Class, Section, Subject, and Term.
+- Transform raw data into **meaningful insights**
+- Apply **data modeling & relationships**
+- Implement **DAX measures for analysis**
+- Build **interactive & user-friendly dashboards**
+- Showcase **professional Power BI development skills**
 
 ---
 
-## 📈 Visualizations
+## 🛠 Tools & Technologies
 
-The main report page includes:
+| Tool | Purpose |
+|----|----|
+| **Microsoft Power BI Desktop** | Data modeling & visualization |
+| **Power Query** | Data cleaning & transformation |
+| **DAX** | Measures, KPIs & calculations |
+| **Star Schema** | Optimized data model |
 
-- **Bar Chart** – Average scores by Subject and Class.  
-- **Line Chart** – Performance trend across Terms or Exam Types.  
-- **Donut Chart** – Distribution of Behavior Types.  
-- **Table** – Student-wise scores with conditional formatting (e.g., green for ≥80%, red for <40%).  
-- **Card Visuals** – KPIs such as:
-  - Total Students  
-  - Average Score  
-  - Average Attendance  
-  - Total Behavior Incidents  
+---
 
-You can also add your own screenshots here, for example:
+## 🗂 Dataset & Data Model
 
-```markdown
+The project uses a **structured relational model** consisting of:
 
+- 📌 **Fact Table** – Transactional / performance data  
+- 📌 **Dimension Tables** – Customer, Product, Date, Region, etc.  
+- 📌 **Star Schema** for fast querying and clean relationships  
+
+✔ Proper cardinality  
+✔ No ambiguous relationships  
+✔ Optimized for scalability  
+
+---
+
+## 🧠 Key DAX Concepts Used
+
+- `CALCULATE`
+- `SUMX`
+- `FILTER`
+- `DIVIDE`
+- Time Intelligence (YTD / MTD where applicable)
+- KPI calculations
+- Context transition handling
+
+> 💡 All calculations are designed to be **dynamic, reusable, and efficient**.
+
+---
+
+## 📈 Dashboard Features
+
+### 🔹 Interactive Visuals
+- KPI Cards (Revenue, Quantity, Performance)
+- Tables & Matrix visuals
+- Slicers for dynamic filtering
+- Drill-through & cross-filtering
+
+### 🔹 Business Insights
+- Trend analysis
+- Category & segment performance
+- Comparative metrics
+- Performance indicators
+
+---
+
+## 🖼 Screenshots
+
+> *(Replace image paths with actual screenshots from your Power BI report)*
+
+### 📌 Dashboard Overview
+![Dashboard Overview](screenshots/dashboard_overview.png)
+
+### 📌 KPI & Metrics View
+![KPI View](screenshots/kpi_view.png)
+
+### 📌 Detailed Analysis Page
+![Detailed Analysis](screenshots/detailed_analysis.png)
+
+---
+
+## ⚙ Power BI File
+
+📁 **Project File:**  
+
+> Open using **Power BI Desktop (latest version recommended)**
+
+---
+
+## 📌 Key Learnings
+
+- Building scalable Power BI models
+- Writing optimized DAX measures
+- Designing clean & effective dashboards
+- Applying analytics for decision-making
+- Presenting data professionally
+
+---
+
+## 👨‍🎓 Author
+
+**Dharmik Pansuriya**  
+📊 Power BI | Data Analytics | SQL | Python  
+
+> *This project is created for academic and learning purposes.*
+
+---
+
+## ⭐ How to Use This Project
+
+1. Clone or download the repository
+2. Open `finalexam.pbix` in Power BI Desktop
+3. Refresh data (if required)
+4. Explore dashboards using slicers & filters
+
+---
+
+## 📬 Feedback & Suggestions
+
+If you found this project helpful or have suggestions:
+- ⭐ Star the repository  
+- 📝 Open an issue  
+- 🤝 Connect for collaboration  
+
+---
+
+### 🔥 *If data tells a story, this dashboard makes it readable.*
 
